@@ -14,6 +14,8 @@ fi
 
 echo "Filename: $filename"
 
+echo "Here's my change"
+
 size=$(ls -lh "$filename" | awk '{print $5}')
 echo "File size: $size"
 
